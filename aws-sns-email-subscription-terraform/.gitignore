@@ -1,0 +1,6 @@
+# Default ignored files
+/.idea
+/terraform.tfstate
+/terraform.tfstate.backup
+/.terraform
+/variables.json
