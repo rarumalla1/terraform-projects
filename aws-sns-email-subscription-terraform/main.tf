@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 data "template_file" "aws_cf_sns_stack" {
-  template = file("${path.module}/templates/cf_aws_sns_email_stack.json")
+  template = file("${path.module}/templates/cf_aws_sns_email_stack.json.tpl")
   vars = {
     sns_topic_name        = ""
     sns_display_name      = ""
