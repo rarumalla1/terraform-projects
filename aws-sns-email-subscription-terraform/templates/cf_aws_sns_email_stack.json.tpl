@@ -13,9 +13,9 @@
     }
   },
   "Outputs" : {
-      "SNSTopicArn" : {
-        "Description": "ARN of the SNS topic",
-        "Value" : { "Ref" : "SNSTopic" }
-      }
+    "SNSTopicArn" : {
+      "Description": "ARN of the SNS topic",
+      "Value" : { "Ref" : "SNSTopic" }
     }
+  }
 }
